@@ -4593,6 +4593,44 @@
     color: #fff;
 }
 
+
+/* Home gallery section  */
+
+#gallery-banner {
+    background-image: url(../../../../../images/gallery/GalleryBanner_Signature-sisters.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gallery-banner h2 {
+    margin-bottom: 40px;
+}
+
+.elementor-element-90ddfe3-1 {
+    width: 40%;
+}
+
+#gallery-banner .e-con-inner {
+    padding: 12% 0 10%;
+}
+
+.gallery-title-text {
+    background: linear-gradient(45deg, #201734, #5e4080 69%);
+    padding: 1.3% 2%;
+}
+
+.gallery-title-text-1 {
+    background: #241a3c;
+    padding: 1.3% 2%;
+}
+
+.gallery-title-text h5,
+.gallery-title-text-1 h5 {
+    color: #fff;
+    margin: 0px;
+    font-weight: 500;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-7 .elementor-element.elementor-element-f56d07c:not(.elementor-motion-effects-element-type-background),
     .elementor-7 .elementor-element.elementor-element-f56d07c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
@@ -4601,6 +4639,9 @@
     #sister-statue {
         right: 23%;
         top: 60%;
+    }
+    #gallery-banner .e-con-inner {
+        padding: 13% 0px 16%;
     }
 }
 
@@ -4659,6 +4700,21 @@
     }
     #footer {
         background-position: right;
+    }
+    /* gallery section  */
+    #gallery-banner h2 {
+        margin-bottom: 18px;
+    }
+    #gallery-banner .e-con-inner {
+        padding: 0px;
+        align-items: start;
+    }
+    .elementor-element-90ddfe3-1 {
+        width: 47%;
+    }
+    .gallery-title-text,
+    .gallery-title-text-1 {
+        padding: 2% 6%;
     }
 }
 
@@ -4777,5 +4833,20 @@
     }
     #research img {
         height: fit-content;
+    }
+    /* gallery section  */
+    #gallery-banner h2 {
+        margin-bottom: 18px;
+    }
+    #gallery-banner .e-con-inner {
+        padding: 0px;
+        align-items: start;
+    }
+    .elementor-element-90ddfe3-1 {
+        width: 100%;
+    }
+    .gallery-title-text,
+    .gallery-title-text-1 {
+        padding: 4% 8%;
     }
 }
